@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: gray;
+}
+.heading{
+    border: solid;
+    border-width: 2px;
+    border-top-left-radius : 10%;
+    border-top-right-radius : 10%;
+    border-bottom-right-radius : 10%;
+    border-bottom-left-radius : 10%;
+}
+.grid{
+    display: flex;
+}
+.Heading{
+    background: gray;
+}
+.imgclass1{
+    border: 3px solid black;
+    border-radius: 30%;
+}
+.centerheader{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-align: center;
+    font-family: fantasy;
+}
+.centerintro{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    text-align: center;
+}
+li{
+    font-weight: bolder;
+}
+.menubutton{
+    font-size: 60px;
+}
